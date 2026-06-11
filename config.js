@@ -20,12 +20,13 @@ const cfg = {
   ACTION_TIMEOUT:    20_000,
   WAIT_AFTER_LOGIN:   6_000,
   WAIT_PROFILE_LOAD:  4_000,
+  WAIT_AFTER_SEARCH:  5_000,
 
   // How many End keypresses to scroll-load all lazy results
-  PAGE_DOWN_COUNT: 90,
+  PAGE_DOWN_COUNT: 500,
 
   BROWSER_CHANNEL: 'chrome',
-  HEADLESS: true,
+  HEADLESS:false,
 };
 
 export default cfg;
